@@ -1,0 +1,12 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "main": "README.md",
+  "repository": "git@github:Franciscoborges2002/aDVENToFcODE.git",
+  "author": "Franciscoborges2002 <franciscomsborges2002@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
