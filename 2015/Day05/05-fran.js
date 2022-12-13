@@ -65,7 +65,7 @@ function nicerStrings(input){
             char = input[i] + input[i+1];
 
             let j = i;
-            while(input[j] !== "\n" || !((input[j] + input[j+1] + input[j+2] + input[j+3]) === "wadz")){
+            while(input[j] !== "\n" || (input[j] + input[j+1] + input[j+2] + input[j+3]) === "wadz"){
                 console.log(j, input[j] ,(input[j] + input[j+1] + input[j+2] + input[j+3]), i)
                 if(char === (input[j] + input[j + 1])){
                     twiceLetters++;
